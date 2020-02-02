@@ -1,6 +1,6 @@
-# Tashlen
-## Penghitung Dzikir Online
+# Subkal
+## Subnet Kalkulator
 
-Aplikasi ini dibuat untuk memudahkan bagi yang berdzikir tetapi tidak ada tasbih.
+Aplikasi ini dibuat untuk memeriksa hasil penghitungan subnet secara manual.
 
 afarhansib
