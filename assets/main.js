@@ -111,7 +111,7 @@ tombolHitung.onclick = (e) => {
 
 	for (i = 1; i <= jumlahBlokVal; i++) {
 		bloknavVal += `
-			<a href="#blok${i}">${i}</a>
+			<a title="Pergi ke Blok ke-${i}" href="#blok${i}">${i}</a>
 		`;
 	}
 
@@ -144,7 +144,7 @@ tombolHitung.onclick = (e) => {
 							<tr>
 								<th>IP ke-${k}</th>
 								<td>${ipStart + "." + (((i - 1) * jumlahIpVal) + (k - 1))}</td>
-								<th>BROAD</th>
+								<th>BROADCAST</th>
 							</tr>
 				`;
 			} else {
@@ -152,7 +152,7 @@ tombolHitung.onclick = (e) => {
 							<tr>
 								<th>IP ke-${k}</th>
 								<td>${ipStart + "." + (((i - 1) * jumlahIpVal) + (k - 1))}</td>
-								<th>HOST</th>
+								<th>HOST Ke-${k - 1}</th>
 							</tr>
 				`;
 			}
